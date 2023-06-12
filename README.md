@@ -9,25 +9,25 @@ This project runs an election in the runoff format. This means if a candidate ha
 
 - <b>C</b> 
 
-<h2>Program walk-through:</h2>
-
+<h2>Code Breakdown</h2>
+Walking through the code from top to bottom, we have an array of candidates, a counter for the voters and candidates, an error message to return 1 in case of bad usage, then it populates the array of candidates from the command line arguments, requests input for the number of voters, and keeps requesting the voters preferences and recording the answer, it then checks to see if there is a candidate with over 50% votes as an automatic winner, if not, then it eliminates the last place and recounts the votes with the last place candidate not included, it repeats until a winner is found, it then prints the winner.
 <p align="center">
-Start the programme: <br/>
-<img src="https://i.imgur.com/yu9wz4n.png"/>
+ <br/>
+<img src="https://i.imgur.com/Ao7ASj1.png"/>
 <br />
 <br />
-Enter the text you wish to grade. The programme will return the grade of the text. Below is a few different tests to show examples of how it works for different grades. <br/>
-<img src="https://i.imgur.com/fmRZqUH.png"/>
+<img src="https://i.imgur.com/gAp1fbw.png"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/r5C1Ydq.png"/>
+<img src="https://i.imgur.com/HQHSFvf.png"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/eLyTPal.png"/>
+<img src="https://i.imgur.com/55aQ5UP.png"/>
 <br />
 <br />
+ Programme in use:  <br/>
+ Run with the candidates as command line arguments, enter the number of voters, type in the votes, and then it prints the winner as in the example below.<br/>
+<img src="https://i.imgur.com/umA1V93.png"/>
 </p>
 
 <!--
